@@ -1,5 +1,5 @@
 <!DOCTYPE>
-<html lang="<%= config.language %>">
+<html lang="<%= config.language || '' %>">
 <%- partial('_partial/head') %>
 
 <body>
@@ -12,5 +12,10 @@
   <%- partial('_partial/footer') %>
 
   <%- partial('_partial/script') %>
+
+  <% if (theme.duoshuo_style!=='origin'){ %>
+  <!-- overwrite duoshuo original css -->
+  <link rel="stylesheet" href="/css/duoshuo.css">
+  <% } %>
 </body>
 </html>

@@ -1,20 +1,61 @@
-html, div, p, article {
+html, div, p, blockquote, article {
   padding: 0;
   margin: 0;
 }
 
-body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: #fff;
-  color: #888888;
-  line-height: 23px;
+@media screen and (min-width: 960px) {
+  body {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    width: 600px;
+  }
+
+  header {
+    margin-bottom: 80px;
+  }
+
+  main {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  body {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    width: 600px;
+  }
+
+  header {
+    margin-bottom: 80px;
+  }
+
+  main {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    margin: 30px;
+  }
+
+  header {
+    margin-bottom: 50px;
+  }
+
+  main {
+    margin-bottom: 30px;
+  }
 }
 
 body {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  margin-left: 100px;
-  width: 600px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 62.5%; /* 1em = 10px*/
+  background-color: #fff;
+  color: #888;
 }
 
 a, a:hover, a:link, a:visited {
@@ -26,31 +67,45 @@ img {
   width: 100%;
 }
 
-header h1 a {
-  font-style: normal;
-  font-size: 25px;
+blockquote {
+  margin:10px 0;
+  padding: 10px;
+  border-left: 2px solid #aaa;
+  background-color: #eee;
 }
 
-header .description{
-  margin-bottom: 80px;
+article blockquote p {
+  margin: 0;
+}
+
+header h1 a {
+  font-style: normal;
+  font-size: 2.5em;
+}
+
+header .description {
+  font-size: 1.8em;
 }
 
 article {
-  font-family: "Microsoft Sans Serif", 微软雅黑;
+  font-family: "Times New Roman", "Microsoft Sans Serif", sans-serif;
   margin-bottom: 80px;
 }
 
 article h2 {
-  font-size: 14px;
+  font-size: 1.4em;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 article p {
-  font-size: 13px;
+  font-size: 1.4em;
+  line-height: 1.5em;
   margin-bottom: 20px;
 }
 
-footer{
-  font-size: 10px;
+footer {
+  margin-top: 10px;
+  text-align: right;
+  font-size: 1.2em;
 }

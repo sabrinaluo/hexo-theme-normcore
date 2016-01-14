@@ -1,0 +1,89 @@
+#ds-reset .ds-highlight,
+#ds-thread #ds-reset .ds-sort a.ds-current,
+#ds-thread #ds-reset .ds-sort a:active,
+#ds-thread #ds-reset .ds-user-name,
+#ds-thread #ds-reset a.ds-comment-context,
+#ds-thread #ds-reset .ds-post-liked a.ds-post-likes,
+#ds-thread #ds-reset #ds-bubble a {
+  color: #555 !important;
+}
+
+#ds-thread #ds-reset a.ds-comment-context:hover,
+#ds-thread #ds-reset #ds-bubble a:hover {
+  color: #333 !important;
+}
+
+#ds-reset .ds-gradient-bg,
+#ds-thread #ds-reset #ds-bubble,
+#ds-thread #ds-reset a.ds-like-thread-button,
+#ds-thread #ds-reset .ds-like-tooltip,
+#ds-thread #ds-reset li.ds-tab a.ds-current,
+#ds-thread #ds-reset .ds-account-control ul,
+#ds-thread #ds-reset .ds-textarea-wrapper,
+#ds-thread #ds-reset .ds-post-toolbar,
+#ds-thread #ds-reset .ds-post-button,
+#ds-thread #ds-reset .ds-post-options {
+  background-image: none;
+  background-color: #fff;
+  box-shadow: none;
+  border-radius: 3px;
+}
+
+#ds-thread #ds-reset .ds-like-tooltip,
+#ds-thread #ds-reset .ds-account-control ul,
+#ds-thread #ds-reset #ds-bubble {
+  border-color: #bbb;
+}
+
+#ds-reset .ds-gradient-bg,
+#ds-thread #ds-reset a.ds-like-thread-button,
+#ds-thread #ds-reset .ds-post-button,
+#ds-thread #ds-reset .ds-post-options {
+  border-bottom-color: #ccc;
+}
+
+#ds-thread #ds-reset .ds-textarea-wrapper {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#ds-thread #ds-reset .ds-post-options {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#ds-thread #ds-reset .ds-user-name,
+#ds-thread #ds-reset #ds-user-card .ds-user-name,
+#ds-thread #ds-reset a.ds-comment-context:hover {
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+#ds-thread #ds-reset .ds-post-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* hide emoji tool bar */
+#ds-thread #ds-reset .ds-toolbar-buttons {
+  display: none;
+}
+
+#ds-thread #ds-reset .ds-post-button {
+  border: 1px solid #ccc;
+  color: #888;
+}
+
+#ds-thread #ds-reset button:hover,
+#ds-thread #ds-reset button:active,
+#ds-thread #ds-reset a.ds-unread-comments-count:hover,
+#ds-thread #ds-reset .ds-post-button:hover {
+  background-color: #eee;
+  color: #888;
+}
+
+#ds-thread #ds-reset .ds-comment-body p {
+  color: #888
+}

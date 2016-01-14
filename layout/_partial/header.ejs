@@ -1,8 +1,8 @@
 <header>
   <h1>
-    <a href="">
-      <span>title</span>
-    </a>
+    <a href="<%= config.root %>"><%= config.title %></a>
   </h1>
-  <p class="description">description</p>
+  <% if(config.description) { %>
+  <p class="description"><%= config.description %></p>
+  <% } %>
 </header>

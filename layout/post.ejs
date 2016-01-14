@@ -1,1 +1,5 @@
 <%- partial('_partial/article', {post: page,index:false}) %>
+
+<% var DS = theme.duoshuo || config.duoshuo; if(DS){ %>
+<%- partial('_widget/duoshuo', {DUOSHUO: DS}) %>
+<% } %>
