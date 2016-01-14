@@ -88,7 +88,7 @@ header .description {
 }
 
 article {
-  font-family: "Times New Roman", "Microsoft Sans Serif", sans-serif;
+  font-family: "Times New Roman", "Microsoft Sans Serif", 微软雅黑, sans-serif;
   margin-bottom: 80px;
 }
 
