@@ -52,7 +52,7 @@ html, div, p, blockquote, article {
 }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, "Times New Roman", Times, 微软雅黑, serif;
   font-size: 62.5%; /* 1em = 10px*/
   background-color: #fff;
   color: #888;
@@ -64,7 +64,7 @@ a, a:hover, a:link, a:visited {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 blockquote {
@@ -116,4 +116,9 @@ footer {
   margin-top: 10px;
   text-align: right;
   font-size: 1.2em;
+}
+
+.licence {
+  font-size: 1em;
+  margin-bottom: 50px;
 }
