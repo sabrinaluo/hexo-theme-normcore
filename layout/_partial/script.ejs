@@ -1,2 +1,11 @@
-<%- partial('_widget/google-analytics') %>
-<%- partial('_widget/baidutongji') %>
+<% var GA = theme.google_analytics || config.google_analytics; if(GA){ %>
+<%- partial('_widget/google_analytics', {GA: GA}) %>
+<% } %>
+
+<% var BDTJ = theme.baidu_tongji || config.baidu_tongji; if(BDTJ){ %>
+<%- partial('_widget/baidu_tongji', {BDTJ: BDTJ}) %>
+<% } %>
+
+<% if(theme.baidu_crawler || config.baidu_crawler){ %>
+<%- partial('_widget/baidu_crawler') %>
+<% } %>
