@@ -68,7 +68,7 @@ img {
 }
 
 blockquote {
-  margin:10px 0;
+  margin: 10px 0;
   padding: 10px;
   border-left: 2px solid #aaa;
   background-color: #eee;
@@ -102,6 +102,14 @@ article p {
   font-size: 1.4em;
   line-height: 1.5em;
   margin-bottom: 20px;
+}
+
+article a, article a:link {
+  text-decoration: underline;
+}
+
+article a:hover {
+  font-style: italic;
 }
 
 footer {
