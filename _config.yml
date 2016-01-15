@@ -1,4 +1,5 @@
 duoshuo: #duoshuo short_name
 duoshuo_style: #if you don't want to overwrite duoshuo original css style, set it as 'origin'
 google_analytics: #google analytics tracking id UA-xxxxxx-x
-baidutongji: #baidu tongji tracking id
+baidu_tongji: #baidu tongji tracking id
+baidu_crawler: #if you want baidu auto crawling your webstie, set it as true
