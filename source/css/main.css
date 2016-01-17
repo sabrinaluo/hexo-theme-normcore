@@ -147,3 +147,9 @@ footer {
   position: absolute;
   right: 0;
 }
+
+hr {
+  border: none;
+  border-bottom: 1px dashed #ccc;
+  padding-top: 30px;
+}

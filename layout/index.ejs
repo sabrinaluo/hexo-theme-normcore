@@ -1,1 +1,4 @@
-<%- partial('_partial/archive',{index: true}) %>
+<% page.posts.each(function(post){ %>
+<%- partial('_partial/article', {page: post}) %>
+<hr>
+<% }) %>
