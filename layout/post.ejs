@@ -1,8 +1,10 @@
-<%- partial('_partial/article', {post: page,index:false}) %>
+<%- partial('_partial/article') %>
 
 <% var licence = theme.licence || config.licence; if(licence==='CC BY-NA-SA 3.0'){ %>
 <%- partial('_widget/licence') %>
 <% } %>
+
+<%- partial('_partial/paginator') %>
 
 <% var DS = theme.duoshuo || config.duoshuo; if(DS){ %>
 <%- partial('_widget/duoshuo', {DUOSHUO: DS}) %>
