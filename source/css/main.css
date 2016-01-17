@@ -153,3 +153,9 @@ hr {
   border-bottom: 1px dashed #ccc;
   padding-top: 30px;
 }
+
+.time {
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  padding-top: 15px;
+}

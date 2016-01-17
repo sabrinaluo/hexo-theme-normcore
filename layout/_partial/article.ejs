@@ -1,4 +1,14 @@
 <article>
-  <h2><a href="<%= url_for(page.path)%>"><%= page.title || 'Untitled' %></a></h2>
+  <h2>
+    <a href="<%= url_for(page.path) %>"><%= page.title || 'Untitled' %></a>
+  </h2>
+
   <%- page.content %>
+
+  <div class="time">
+    <%= page.date.format('YYYY-MM-DD HH:mm') %>
+    <% if(config.author){ %>
+    by <%= config.author %>
+    <% } %>
+  </div>
 </article>
