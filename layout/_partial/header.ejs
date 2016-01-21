@@ -1,9 +1,9 @@
 <%
 var social_t = theme.social;
 var social_c = config.social;
-var home = social_t.home || social_c.home;
-var weibo = social_t.weibo || social_c.weibo;
-var github = social_t.github || social_c.github;
+var home = social_t && social_t.home || social_c && social_c.home;
+var weibo = social_t && social_t.weibo || social_c && social_c.weibo;
+var github = social_t && social_t.github || social_c && social_c.github;
 %>
 
 <header>

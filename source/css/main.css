@@ -177,6 +177,7 @@ ul.social{
   list-style: none;
   position: absolute;
   right: 0;
+  top: -50px;
 }
 
 .social li{
