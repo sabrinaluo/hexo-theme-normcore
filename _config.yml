@@ -4,3 +4,9 @@ google_analytics: #google analytics tracking id UA-xxxxxx-x
 baidu_tongji: #baidu tongji tracking id
 baidu_crawler: #if you want baidu auto crawling your webstie, set it as true
 licence: #show licence info in each post, set it as 'CC BY-NA-SA 3.0'
+
+# put your social network url, http://xxx.com
+social:
+  home:
+  github:
+  weibo:

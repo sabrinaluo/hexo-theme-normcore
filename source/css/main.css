@@ -166,3 +166,25 @@ hr {
   padding-bottom: 30px;
   margin-bottom: 20px;
 }
+
+header{
+  position: relative;
+}
+
+ul.social{
+  padding: 10px 0;
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  right: 0;
+}
+
+.social li{
+  float: left;
+  padding-left: 30px;
+}
+
+.social li a:hover{
+  text-decoration: underline;
+}
+
