@@ -126,6 +126,7 @@ footer {
 .paginator {
   position: relative;
   margin-bottom: 30px;
+  padding-bottom:10px;
 }
 
 .paginator a,
