@@ -1,16 +1,17 @@
 <div class="paginator">
   <span class="prev">
-    <% if(page.next){ %>
-    <a href="<%= url_for(page.next.path) %>">
-      ← old | 《<%= page.next.title || 'Untitled' %>》
+    <% if(page.prev){ %>
+    <a href="<%= url_for(page.prev.path) %>">
+      ← new | 《<%= page.prev.title || 'Untitled' %>》
     </a>
     <% } %>
   </span>
   <span class="next">
-    <% if(page.prev){ %>
-    <a href="<%= url_for(page.prev.path) %>">
-      《<%= page.prev.title || 'Untitled' %>》 | new →
+    <% if(page.next){ %>
+    <a href="<%= url_for(page.next.path) %>">
+      《<%= page.next.title || 'Untitled' %>》 | old →
     </a>
     <% } %>
+
   </span>
 </div>
