@@ -2,14 +2,14 @@
   <span class="prev">
     <% if(page.next){ %>
     <a href="<%= url_for(page.next.path) %>">
-      ← old | 《<%= page.next.title %>》
+      ← old | 《<%= page.next.title || 'Untitled' %>》
     </a>
     <% } %>
   </span>
   <span class="next">
     <% if(page.prev){ %>
     <a href="<%= url_for(page.prev.path) %>">
-      《<%= page.prev.title %>》 | new →
+      《<%= page.prev.title || 'Untitled' %>》 | new →
     </a>
     <% } %>
   </span>

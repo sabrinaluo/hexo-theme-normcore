@@ -160,3 +160,9 @@ hr {
   font-style: italic;
   padding-top: 15px;
 }
+
+.excerpt{
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}

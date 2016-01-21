@@ -1,5 +1,8 @@
 <article>
   <h2>
+    <% if(!page.excerpt){ %>
+    <a name="readmore"></a>
+    <% } %>
     <a href="<%= url_for(page.path) %>"><%= page.title || 'Untitled' %></a>
   </h2>
 
